@@ -1,0 +1,328 @@
+
+
+/* to reset the style sheet and give it a border-box */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* default a tag styling */
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+@font-face {
+  font-family: "gotham";
+  src: url("./Gotham-Font/GothamBook.ttf");
+  
+  }
+ 
+
+html{
+    background-color:hsl(217, 54%, 11%);
+    
+    
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column; 
+    width: 575px;
+    /* to center the container vertically */
+    position: absolute;
+    height: 475px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.267);
+    border-radius: 15px;
+    
+    
+}
+.content {
+  /* max-height: 300px;
+    overflow-y: auto; */
+    
+
+}
+.btn {
+    border: 2px solid black;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    padding: 15px ;
+    width: 85%;
+    /* margin-top: 70%;
+    margin-left: 30%; */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    right: 39px;
+    bottom: 20px;
+    font-size: 12px;
+    
+    
+  }
+  
+  /* Green */
+  .success {
+    border-color: #04AA6D;
+    color: white;
+    
+  }
+  
+  .success:hover {
+    background-color: #63f7c1;
+    color: white;
+  }
+  /* .button {
+    background-color: white;
+    border: none;
+    border: 2px solid black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 7px;
+  } */
+  /* .button5 {
+    border-radius: 47%;
+    } */
+    .dot {
+        height: 65px;
+        width: 65px;
+        background-color: #04aa6ddd;
+        border: 1px solid #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 15px 17px;
+        z-index: 1;
+      }
+      .dot:hover {
+        background-color: #63f7c1;
+        color: white;
+        cursor: pointer;
+      }
+      .dot{
+        align-self: center;
+
+
+      }
+      
+      h1{
+        color: #fff;
+        margin-left: 22px;
+        margin-top: 15px;
+        font-family: 'gotham';
+        font-size: 27px;
+      }
+      h2{
+        color: #fff;
+        margin-left: 22px;
+        margin-top: 10px;
+        text-decoration: none;
+        font-size: 14px;
+        font-family:'gotham';
+        font-weight: 200;
+      }
+      /* h2 span{
+        font-size: 16px;
+        color: #04AA6D;
+      } */
+
+
+
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 400px;
+        /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); */
+        padding: 50px;
+      }
+      .cardnum input {
+        width: 485px;
+        height: 40px;
+        border-radius: 8px;
+        outline: none;
+        border: 0.1px solid #bbb;
+        background-color: hsla(215, 50%, 21%, 0.63);
+        /* padding: 0px 145px; */
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        padding-left: 20px;
+        color: white;
+        text-decoration: none;
+      }
+      label {
+        display: block;
+        
+        margin-bottom: 5px;
+        color: #bbb;
+        font-family:'gotham';
+        font-size: 13px;
+      }
+    .cardnum{
+        position: relative;
+        margin-bottom: 15px;
+    }
+    .cvc{
+      display: flex;
+      
+      margin-top: 10px;
+      position: relative;
+      margin-bottom: 15px;
+      align-items: stretch;
+
+      
+
+        
+    }
+    .cvc input{
+      width: 225px;
+      height: 40px;
+      /* margin-top: 10px; */
+        border-radius: 8px;
+        outline: none;
+        border: thin solid #bbbbbbe6;
+        background-color: hsla(215, 50%, 21%, 0.63);
+        justify-content: space-between;
+        padding-left: 20px;
+        /* text-decoration-color: #fff; */
+        text-decoration: none;
+        color: #fff;
+      
+      
+    }
+    .cvc select{
+      width: 225px;
+      height: 40px;
+      /* margin-top: 10px; */
+        border-radius: 8px;
+        outline: none;
+        border: thin solid #bbbbbbe6;
+        background-color: hsla(215, 50%, 21%, 0.63);
+        justify-content: space-between;
+        padding-left: 20px;
+        /* text-decoration-color: #fff; */
+        text-decoration: none;
+        color: #fff;
+
+    }
+    .d1{
+      margin-right: 35px;
+    }
+    .top{
+      margin-left: 20px;
+      display: flex;
+    }
+    .message{
+      margin-left: 20px;
+      
+    }
+    ::placeholder{
+      color: #bbb;
+    }
+   p{
+    color: white;
+    margin-top: 40px;
+   }
+   .psw {
+    /* float: right; */
+    padding-top: 5px;
+    margin-left: 430px;
+    font-family: 'gotham';
+  }
+  .rem{
+    margin-left: 240px;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.failure-icon, .error{
+  color: red;
+}
+.success-icon{
+  color: green;
+
+}
+.error{
+  font-size: 14.5px;
+  margin-top: 5px;
+}
+.success-icon,.failure-icon{
+  right: 0;
+  opacity: 0;
+
+}
+  
+  
+    
+    
+
+@media only screen and (max-width: 600px){
+
+    .container{
+        width: 90%;
+    }
+    
+    
+    .btn{
+        padding: 15px 95px ;
+        right:25px;
+        width: 81%;
+    }
+    .cvc input{
+      width: 130px;
+    }
+    .cardnum input{
+      width: 300px;
+    }
+    h2{
+      break-after:always;
+    }
+    .psw{
+      margin-left: 234px;
+    }
+    .rem{
+      margin-left: 150px;
+    }
+    .cvc select{
+      width: 133px;
+    }
+
+
+}
+
+
+
+
+    
+    
+
+
