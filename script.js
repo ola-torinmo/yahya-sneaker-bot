@@ -34,7 +34,7 @@
           }
           else{
              errorMsg[serial].innerHTML= "";
-             id.style.border="2px solid green";
+             id.style.border="1px solid green";
  
              // icons
              failureIcon[serial].style.opacity="0";
