@@ -66,7 +66,7 @@ html{
   }
   
   /* Green */
-  .success {
+  /* .success {
     border-color: #04AA6D;
     color: white;
     
@@ -75,7 +75,7 @@ html{
   .success:hover {
     background-color: #63f7c1;
     color: white;
-  }
+  } */
   /* .button {
     background-color: white;
     border: none;
@@ -95,7 +95,7 @@ html{
     .dot {
         height: 65px;
         width: 65px;
-        background-color: #04aa6ddd;
+        background-color:  #04aa6ddd;
         border: 1px solid #bbb;
         border-radius: 50%;
         display: inline-block;
@@ -111,6 +111,9 @@ html{
         align-self: center;
 
 
+      }
+      .dot img{
+        height: 27px;
       }
       
       h1{
@@ -236,11 +239,12 @@ html{
     margin-left: 438px;
     font-family: 'gotham';
     font-size: 11px;
+    color: white;
   }
   .rem{
     margin-left: 240px;
   }
-
+/* styling the scroll bare */
   /* width */
 ::-webkit-scrollbar {
   width: 5px;
@@ -260,7 +264,7 @@ html{
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-.failure-icon, .error{
+/* .failure-icon, .error{
   color: red;
 }
 .success-icon{
@@ -275,8 +279,22 @@ html{
   right: 0;
   opacity: 0;
 
+} */
+
+.success input{
+  border: 2px solid green;
 }
-  
+.error input{
+  border: 2px solid red;
+}
+
+/* .cardnum span {
+  font-size: 14px;
+  color: red;
+  padding-left: 5px;
+  visibility: hidden;
+}
+   */
   
     
     
