@@ -122,6 +122,10 @@ html{
         margin-top: 15px;
         font-family: 'gotham';
         font-size: 27px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        z-index: 1;
       }
       h2{
         color: #fff;
@@ -131,6 +135,10 @@ html{
         font-size: 14px;
         font-family:'gotham';
         font-weight: 200;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        z-index: 1;
       }
       /* h2 span{
         font-size: 16px;
@@ -224,6 +232,10 @@ html{
     }
     .message{
       margin-left: 20px;
+      -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        
       
     }
     ::placeholder{
@@ -238,9 +250,16 @@ html{
     /* padding-top: 2px; */
     margin-left: 438px;
     font-family: 'gotham';
-    font-size: 11px;
+    font-size: 10px;
     color: white;
+    /* display: flex;
+    z-index: 2; */
+    /* justify-content: space-between; */
+    
   }
+  /* .psw input{
+    margin-left: -430px;
+  } */
   .rem{
     margin-left: 240px;
   }
@@ -286,6 +305,10 @@ html{
 }
 .error input{
   border: 2px solid red;
+}
+
+#checkbox{
+  
 }
 
 /* .cardnum span {

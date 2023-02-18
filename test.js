@@ -21,6 +21,7 @@
 
     function isFormValid(){
         const inputContainers = form.querySelectorAll('.cardnum');
+        // const inputContainer = form.querySelectorAll('.cvc');
         let result = true;
         inputContainers.forEach((container)=>{
             if(container.classList.contains('error')){

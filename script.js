@@ -1,7 +1,7 @@
 
 const form =document.querySelector('#form');
-// const emailInput = document.querySelector('#email');
-// const passwordInput = document.querySelector('#password');
+const username2Input = document.querySelector('#username2');
+const username1Input = document.querySelector('#username1');
 const usernameInput = document.querySelector('#username');
 // const submit =document.querySelector('#submit');  
 
@@ -20,9 +20,14 @@ form.addEventListener('submit', (event)=>{
 });
 
 function isFormValid(){
-    const inputContainers = form.querySelectorAll('.cardnum');
+    const inputContainers = form.querySelectorAll('.d1');
+
+
     // const inputContainer = form.querySelectorAll('.cvc');
     let result = true;
+
+
+
     inputContainers.forEach((container)=>{
         if(container.classList.contains('error')){
             result = false;
@@ -36,9 +41,20 @@ function isFormValid(){
 function validateForm() {
     // USERNAME
     if(usernameInput.value.trim() === ''){
-        setError(usernameInput, 'Name can not be empty');
+        setError(usernameInput, '');
     }else {
         setSuccess(usernameInput);
+    }
+
+    if(username1Input.value.trim() === ''){
+        setError(username1Input, '');
+    }else {
+        setSuccess(username1Input);
+    }
+    if(username2Input.value.trim() === ''){
+        setError(username2Input, '');
+    }else {
+        setSuccess(username2Input);
     }
     //EMAIL
     // if(emailInput.value.trim() === ''){
