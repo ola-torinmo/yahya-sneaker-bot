@@ -1,5 +1,13 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+
+
+
 /* to reset the style sheet and give it a border-box */
 *{
     margin: 0;
@@ -12,11 +20,11 @@ a{
     color: #fff;
     
 }
-@font-face {
+/* @font-face {
   font-family: "gotham";
   src: url("./Gotham-Font/GothamBook.ttf");
   
-  }
+  } */
  
 
 html{
@@ -54,7 +62,7 @@ html{
     width: 85%;
     /* margin-top: 70%;
     margin-left: 30%; */
-    font-size: 16px;
+    /* font-size: 16px; */
     cursor: pointer;
     border-radius: 5px;
     position: absolute;
@@ -120,25 +128,25 @@ html{
         color: #fff;
         margin-left: 22px;
         margin-top: 15px;
-        font-family: 'gotham';
-        font-size: 27px;
-        -webkit-appearance: none;
+        font-family: 'Roboto Slab', serif;
+        font-size: 30px;
+        /* -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-        z-index: 1;
+        z-index: 1; */
       }
       h2{
         color: #fff;
         margin-left: 22px;
         margin-top: 10px;
         text-decoration: none;
-        font-size: 14px;
-        font-family:'gotham';
+        font-size: 16px;
+        font-family: 'Roboto Slab', serif;
         font-weight: 200;
-        -webkit-appearance: none;
+        /* -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-        z-index: 1;
+        z-index: 1; */
       }
       /* h2 span{
         font-size: 16px;
@@ -173,7 +181,7 @@ html{
         
         margin-bottom: 5px;
         color: #bbb;
-        font-family:'gotham';
+        font-family: 'Roboto Slab', serif;
         font-size: 13px;
       }
     .cardnum{
@@ -232,6 +240,7 @@ html{
     }
     .message{
       margin-left: 20px;
+      
       -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
@@ -249,8 +258,8 @@ html{
     /* float: right; */
     /* padding-top: 2px; */
     margin-left: 438px;
-    font-family: 'gotham';
-    font-size: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
     color: white;
     /* display: flex;
     z-index: 2; */
@@ -301,10 +310,10 @@ html{
 } */
 
 .success input{
-  border: 2px solid green;
+  border: 1px solid green;
 }
 .error input{
-  border: 2px solid red;
+  border: 1px solid red;
 }
 
 #checkbox{
@@ -317,8 +326,7 @@ html{
   padding-left: 5px;
   visibility: hidden;
 }
-   */
-  
+*/
     
     
 
@@ -330,19 +338,19 @@ html{
     
     
     .btn{
-        padding: 15px 95px ;
-        right:25px;
-        width: 81%;
-    }
+      padding: 15px ;
+      /* margin-right: 1%; */
+      
+      
+      width: 300px;
+  }
     .cvc input{
       width: 130px;
     }
     .cardnum input{
       width: 300px;
     }
-    h2{
-      break-after:always;
-    }
+
     .psw{
       margin-left: 234px;
     }
@@ -351,7 +359,10 @@ html{
     }
     .cvc select{
       width: 133px;
-    }
+}
+.cvc ,.cardnum{
+  margin-left:3px ;
+}
 
 
 }
