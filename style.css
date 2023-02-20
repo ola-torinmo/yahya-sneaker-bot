@@ -129,7 +129,7 @@ html{
         margin-left: 22px;
         margin-top: 15px;
         font-family: 'Roboto Slab', serif;
-        font-size: 30px;
+        font-size: 27px;
         /* -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
@@ -140,7 +140,7 @@ html{
         margin-left: 22px;
         margin-top: 10px;
         text-decoration: none;
-        font-size: 16px;
+        font-size: 14px;
         font-family: 'Roboto Slab', serif;
         font-weight: 200;
         /* -webkit-appearance: none;
@@ -182,7 +182,7 @@ html{
         margin-bottom: 5px;
         color: #bbb;
         font-family: 'Roboto Slab', serif;
-        font-size: 13px;
+        font-size: 11px;
       }
     .cardnum{
         position: relative;
@@ -259,7 +259,7 @@ html{
     /* padding-top: 2px; */
     margin-left: 438px;
     font-family: 'Roboto Slab', serif;
-    font-size: 12px;
+    font-size: 11px;
     color: white;
     /* display: flex;
     z-index: 2; */
@@ -340,6 +340,7 @@ html{
     .btn{
       padding: 15px ;
       /* margin-right: 1%; */
+      margin-right: 4.5%;
       
       
       width: 300px;
@@ -352,7 +353,7 @@ html{
     }
 
     .psw{
-      margin-left: 234px;
+      margin-left: 245px;
     }
     .rem{
       margin-left: 150px;
@@ -366,6 +367,8 @@ html{
 
 
 }
+
+
 
 
 
