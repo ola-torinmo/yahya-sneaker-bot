@@ -330,7 +330,7 @@ html{
     
     
 
-@media only screen and (max-width: 475px){
+@media screen and (max-width: 400px){
 
     .container{
         width: 100%;
@@ -338,9 +338,12 @@ html{
     
     
     .btn{
-      padding: 15px ;
-      /* margin-right: 1%; */
-      margin-right: 4.5%;
+      /* padding: 15px ; */
+      
+      margin-right: 2%;
+      /* justify-content: center;
+      align-items: center; */
+
       
       
       width: 300px;
@@ -362,10 +365,35 @@ html{
       width: 133px;
 }
 .cvc ,.cardnum{
-  margin-left:3px ;
+  margin-left: -9px ;
 }
 
 
+
+}
+@media only screen and (max-width: 500px) and (min-width: 410px){
+  .container{
+    width: 100%;
+  }
+  .btn{
+    /* margin-left: 70%; */
+    width: 300px;
+    margin-right: 6%;
+  }
+
+
+  .cvc input{
+    width: 130px;
+  }
+  .cardnum input{
+    width: 300px;
+  }
+  .cvc select{
+    width: 130px;
+}
+.psw{
+  margin-left: 255px;
+}
 }
 
 
